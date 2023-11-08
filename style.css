@@ -1,6 +1,27 @@
-.right {
-	border: 1px solid green;
+.input-field {
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  transition: border-color 0.3s;
 }
+
+.input-field:focus {
+  border-color: #007BFF;
+}
+
+.right {
+  border: 1px solid green;
+  background-color: #c8f7c5; 
+}
+
 .wrong {
-	border: 1px solid red;
+  border: 1px solid red;
+  background-color: #f7c5c8; 
+}
+
+#button {
+  margin-top: 10px;
 }
